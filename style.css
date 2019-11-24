@@ -1,0 +1,172 @@
+body {
+    background-color: #181818;
+    color: #aaa;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+.black-navbar {
+    height: 110px;
+    background-color: #181818;
+    width: 100%;
+}
+
+.icon {
+    float: right;
+    display: block;
+    height: 60px;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.white-navbar {
+    height: 110px;
+    background-color: #fbfaf7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+
+.close {
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.banner {
+    height: 375px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    background: -webkit-linear-gradient(25deg, #957DAD, #D291BC);
+    bottom: 0;
+    left: 0;
+    -webkit-animation: hue 10s infinite linear;
+    color: white;
+}
+
+.box-content {
+    padding: 125px 125px 50px;
+}
+
+.portfolios {
+    height: 500px;
+}
+
+/* Gradient Color Changing */
+.txt-rotate {
+	letter-spacing: 2px;
+	text-align: center;
+	color: #957DAD;
+	background: -webkit-linear-gradient(92deg, #957DAD, #D291BC);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.profile {
+    display: none;
+    background: #fbfaf7;
+    color: #D56A65;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    padding: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: silver;
+    color: gray;
+}
+
+
+@media screen and (max-width: 770px) {
+    .banner {
+        height: 45vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        padding: 0px;
+    }
+
+    .banner {
+        margin: 40px 30px;
+        left: 0;
+        height: 445px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .icon {
+        height: 50px;
+    }
+
+    .open {
+        top: 20px;
+        right: 20px;
+    }
+
+    .content {
+        padding: 100px 30px;
+    }
+
+    .box-content {
+        padding: 60px 30px 50px;
+    }
+}
