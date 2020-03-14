@@ -56,19 +56,19 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
-/* Profile Modal */
-var modal = document.getElementById("profile");
-var trigger = document.getElementById("open");
-var close = document.getElementById('close');
-var black = document.getElementsByClassName('black');
+// /* Profile Modal */
+//  var modal = document.getElementById("profile");
+// var trigger = document.getElementById("open");
+// var close = document.getElementById('close');
+// var black = document.getElementsByClassName('black');
 
-trigger.onclick = function() {
-    modal.style.display = "block";
-    close.style.display = "block";
-    black.style.display = "none";
-}
+// trigger.onclick = function() {
+//     modal.style.display = "block";
+//     close.style.display = "block";
+//     black.style.display = "none";
+// }
 
-close.onclick = function() {
-    modal.style.display = "none";
-    close.style.display = "none";
-}
+// close.onclick = function() {
+//     modal.style.display = "none";
+//     close.style.display = "none";
+// }

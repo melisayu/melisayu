@@ -76,10 +76,10 @@ p {
 
 .box {
     width: 100%;
-    background: -webkit-linear-gradient(25deg, #957DAD, #D291BC);
     bottom: 0;
     left: 0;
-    -webkit-animation: hue 10s infinite linear;
+    background: -webkit-linear-gradient(25deg, #957DAD, #D291BC);
+    animation: hue 10s infinite linear;
     color: white;
     height: 150ex;
 }
@@ -90,6 +90,12 @@ p {
 
 .portfolios {
     height: 500px;
+    display: flex;
+}
+
+.portfolios img {
+    max-height: 200px;
+    border-radius: 10px;
 }
 
 /* Gradient Color Changing */
