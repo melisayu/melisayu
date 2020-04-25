@@ -1,4 +1,18 @@
-/* Typing Effect */
+/* Profile Overlay*/
+document.getElementById('menu-link').addEventListener('click', function(event){
+  console.log('harusnya works')
+event.preventDefault()
+});
+
+function openMenu() {
+var menuOverlay = document.getElementById('menu-overlay')
+var menu = document.getElementById('menu')
+
+menuOverlay.classList.toggle('open')
+menu.classList.toggle('open')
+}
+
+/* Function for Typing Effect */
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -56,19 +70,19 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
-// /* Profile Modal */
- var modal = document.getElementById("profile");
-var trigger = document.getElementById("open");
-var close = document.getElementById('close');
-var black = document.getElementsByClassName('black');
+// // /* Profile Modal */
+// var modal = document.getElementById("profile");
+// var trigger = document.getElementById("open");
+// var close = document.getElementById('close');
+// var black = document.getElementsByClassName('black');
 
-trigger.onclick = function() {
-    modal.style.display = "block";
-    close.style.display = "block";
-    black.style.display = "none";
-}
+// trigger.onclick = function() {
+//     modal.style.display = "block";
+//     close.style.display = "block";
+//     black.style.display = "none";
+// }
 
-close.onclick = function() {
-    modal.style.display = "none";
-    close.style.display = "none";
-}
+// close.onclick = function() {
+//     modal.style.display = "none";
+//     close.style.display = "none";
+// }

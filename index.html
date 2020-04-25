@@ -7,95 +7,104 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display|Ubuntu&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-    <header>
-        <!-- TRIGGER PROFILE MODAL -->
-        <div class="black-navbar">
-            <img class="icon open" id="open" src="img/icon.png">
-        </div>
-        <div class="white-navbar" id="close">
-            <img class="icon close" src="img/icon-invert.png">
-            <a href="https://github.com/melisayu"><img class="icon close" src="img/github.png"></a>
-        </div>
-    </header>
-    <div class="banner">
-        <h1 class="intro">Melisa
-            <span
-                class="txt-rotate"
+    <div class="menu" id="menu" onclick="openMenu()">
+        <span class="menu-circle"></span>
+        <a href="#" class="menu-link" id="menu-link">
+            <img src="http://melisayu.com/img/icon-invert.png" class="menu-icon"/>
+        </a>
+    </div>
+    <div class="menu github">
+        <a href="https://github.com/melisayu" target="_blank">
+            <img class="menu-icon" src="img/github.png">
+        </a>
+    </div>
+    <div class="main">
+        <div class="banner">
+           <div class="info">
+            <h1>
+                <span class="bold">MELISA</span>
+                <span
+                class="txt-rotate bold"
                 data-period="2000"
                 data-rotate='[ "is a former teacher.", "likes to learn.", "likes to create.",
-                            "learned how to code.", "is now a web developer.", "enjoys her job as a developer.",
-                            "also likes to play games and read books.", "listens to post-rock music." ]'>
-            </span>
-        </h1>
-        <h3>Melisa is a girl who likes to &lt;code&gt;.</h3>
-    </div>
-
-    <!-- PORTFOLIO SHOWCASE -->
-    <div class="box">
-        <div class="box-content">
-            <h2>My Portfolio Showcase</h2>
-            <p>MORE DEMOS IN PROGRESS</p>
-            <div class="portfolios">
-                <a href="https://hangman.melisayu.com" target="_blank">
-                    <img alt="Hangman Screenshot" src="img/hangman.png" />
-                </a>
-                <a href="https://shop.melisayu.com" target="_blank">
-                    <img alt="Shop App Screenshot" src="img/shop.png" />
-                </a href="https://shop.melisayu.com" target="_blank">
-            </div>
+                            "learned how to code.", "is now a web developer.", "enjoys her job as a developer."]'>
+                </span>
+            </h1>
+           </div>
+           <h3>Melisa is a girl who likes to &lt;code&gt;.</h3>
         </div>
-        <footer>
-            <p>&copy; Melisa Yulia Kristina 2019</p>
-        </footer>
-    </div>
-
-    <!-- SHOW PROFILE (MODAL CONTENT) -->
-    <div class="profile" id="profile">
-        <div class="column">
-            <div class="first-column">
-                    <h2 class="profile-title">Hi. I'm Melisa.</h2>
-                    <p class="about">I’m a former educator who’s dreaming of having a career in
-                        tech so I can keep learning new things about technology
-                        everyday, be creative and more in control of my job
-                        prospects. I wrote my "Hello World" on January 2019 and since then
-                        I have never stopped learning and forging my path to be a professional developer.
-                        I’m an enthusiastic and insatiable learner with adaptability skill and
-                        perseverance. I enjoy the bliss of solving problems and being able to create things with programming.
-                        Those things make me a logical thinker in mind, but also creative at heart.
-                        I'm also a kind of person who don't give up easily and I think of difficulties
-                        as a chance to build my competence. I started to learn programming by using free
-                        and/or affordable resources and courses to learn HTML,
-                        CSS, JavaScript, front-end libraries (Bootstrap, jQuery,
-                        ReactJS), Python, Django, Git, and a bit SQL.
-                        I think my decision to be a developer is one of the best decisions I've made in life.
-                    </p>
-                </div>
-                <div class="second-column">
-                    <img class="profile-photo" src="img/melisa.jpg">
-                    <div class="social">
-                        <a>
-                            <img class="social-icon" src="img/email.png">
+    
+        <div class="wrapper">
+           <div class="showcase">
+                <div class="box-content">
+                    <h2>MY PORTFOLIO SHOWCASE</h2>
+                    <p>MORE DEMOS IN PROGRESS</p>
+                    <div class="portfolios">
+                        <a href="https://hangman.melisayu.com" target="_blank">
+                            <img alt="Hangman Screenshot" src="img/hangman.png" />
                         </a>
-                        <a href="https://www.linkedin.com/in/melisa-yulia-kristina/" target="_blank">
-                            <img class="social-icon" src="img/linkedin.png">
-                        </a>
-                        <a href="https://twitter.com/celestialdust16" target="_blank">
-                            <img class="social-icon" src="img/twitter.png">
-                        </a>
-                        <a href="https://www.instagram.com/celestialdust_/?hl=en" target="_blank">
-                            <img class="social-icon" src="img/instagram.png">
-                        </a>
-                        <a>
-                            <img class="social-icon" src="img/facebook.png">
-                        </a>
-                        <a>
-                            <img class="social-icon" src="img/whatsapp.png">
-                        </a>
+                        <a href="https://shop.melisayu.com" target="_blank">
+                            <img alt="Shop App Screenshot" src="img/shop.png" />
+                        </a href="https://shop.melisayu.com" target="_blank">
                     </div>
                 </div>
+           </div>
         </div>
-        
+    </div>
+
+    <footer>
+        <p>&copy; Melisa Yulia Kristina 2020</p>
+    </footer>
+
+    <div class="menu-overlay" id="menu-overlay">
+        <div class="container">
+            <div class="line-frame">
+            <h2>HI. I'M MELISA</h2>
+            <h4>A WEB DEVELOPER FROM INDONESIA</h4>
+            <div class="info-img-wrapper">
+                <div class="social">
+                    <a>
+                        <img class="social-icon" src="img/email.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/melisa-yulia-kristina/" target="_blank">
+                        <img class="social-icon" src="img/linkedin.png">
+                    </a>
+                    <a href="https://twitter.com/celestialdust16" target="_blank">
+                        <img class="social-icon" src="img/twitter.png">
+                    </a>
+                </div>
+                <img class="profile-photo" src="img/melisa.jpg" alt="Melisa's Photo"> 
+                <div class="social">
+                    <a href="https://www.instagram.com/celestialdust_/?hl=en" target="_blank">
+                        <img class="social-icon" src="img/instagram.png">
+                    </a>
+                    <a>
+                        <img class="social-icon" src="img/facebook.png">
+                    </a>
+                    <a>
+                        <img class="social-icon" src="img/whatsapp.png">
+                    </a>
+                </div>
+            </div>
+
+            <div class="about">
+                <p>I’m a former educator who’s now working as a web/sofware developer.
+                    I wrote my "Hello World" on January 2019 and since then
+                    I have never stopped learning and forging my path to be a professional coder.
+                    </br>
+                    I’m an enthusiastic and insatiable learner with adaptability skill and
+                    perseverance.
+                    I enjoy the bliss of solving problems and being able to create things with programming.
+                    Those things make me a logical thinker in mind, but also creative at heart.
+                    </br>
+                    I always try to improve my skill and learn something new everyday.
+                    My decision to be a developer is one of the best decisions I've made in life.
+                </p>
+            </div>
+            </div>
+        </div>
     </div>
 
     <script src="main.js"></script>
