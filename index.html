@@ -1,124 +1,171 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M E L I S A Y U</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display|Ubuntu&display=swap" rel="stylesheet"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M E L I S A Y U</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display|Ubuntu&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Oswald&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-    <div class="menu" id="menu" onclick="openMenu()">
-        <span class="menu-circle"></span>
-        <a href="#" class="menu-link" id="menu-link">
-            <img src="http://melisayu.com/img/icon-invert.png" class="menu-icon"/>
-        </a>
+  <div class="menu desktop" id="menu" onclick="openMenu()">
+    <span class="menu-circle"></span>
+    <a href="#" class="menu-link" id="menu-link">
+      <img src="http://melisayu.com/img/icon-invert.png" class="menu-icon"/>
+    </a>
+  </div>
+  <div class="menu mobile" id="menu" onclick="openMenu()">
+    <span class="menu-circle"></span>
+    <a href="#" class="menu-link" id="menu-link">
+      <img src="http://melisayu.com/img/icon-invert.png" class="menu-icon"/>
+    </a>
+  </div>
+  <div class="menu github">
+    <a href="https://github.com/melisayu" target="_blank">
+      <img class="menu-icon" src="img/github.png">
+    </a>
+  </div>
+  <div class="main">
+    <div class="banner">
+      <div class="info">
+        <h1>
+          <span class="bold">MELISA</span>
+          <span
+          class="txt-rotate bold"
+          data-period="2000"
+          data-rotate='[ "is a former teacher.", "likes to learn.", "likes to create.",
+                      "learned how to code.", "is now a web developer.", "enjoys her job as a developer."]'>
+          </span>
+        </h1>
+        <h3>Melisa is a girl who likes to &lt;code&gt;.</h3>
+      </div>
     </div>
-    <div class="menu github">
-        <a href="https://github.com/melisayu" target="_blank">
-            <img class="menu-icon" src="img/github.png">
-        </a>
-    </div>
-    <div class="main">
-        <div class="banner">
-           <div class="info">
-            <h1>
-                <span class="bold">MELISA</span>
-                <span
-                class="txt-rotate bold"
-                data-period="2000"
-                data-rotate='[ "is a former teacher.", "likes to learn.", "likes to create.",
-                            "learned how to code.", "is now a web developer.", "enjoys her job as a developer."]'>
-                </span>
-            </h1>
-           </div>
-           <h3>Melisa is a girl who likes to &lt;code&gt;.</h3>
-        </div>
-    
-        <div class="wrapper">
-           <div class="showcase">
-                <div class="box-content">
-                    <h2>MY PORTFOLIO SHOWCASE</h2>
-                    <p>MORE DEMOS IN PROGRESS</p>
-                    <div class="portfolios">
-                        <div>
-                            <p>Hangman Browser Game Sample (Javascript)</p>
-                            <a href="https://hangman.melisayu.com" target="_blank">
-                                <img alt="Hangman Screenshot" src="img/hangman.png" />
-                            </a>
-                        </div>
-                        <div>
-                            <p>Shop App Sample</br>(React, Redux)</p>
-                            <a href="https://shop.melisayu.com" target="_blank">
-                                <img alt="Shop App Screenshot" src="img/shop.png" />
-                            </a href="https://shop.melisayu.com" target="_blank">
-                        </div>
-                        <div>
-                            <p>Profile Page Sample</br>(Designed by Hubton)</p>
-                            <a href="https://festive-jackson-2a9b0c.netlify.app/index.html" target="_blank">
-                                <img alt="Shop App Screenshot" src="img/hilman.png" />
-                            </a href="https://shop.melisayu.com" target="_blank">
-                        </div>
-                    </div>
+  
+    <div class="wrapper">
+      <div class="showcase">
+        <h2>MY PORTFOLIO SHOWCASE</h2>
+        <!-- Personal Projects-->
+          <div class="box-content">
+          <h5>PERSONAL PROJECTS</h5>
+          <div class="portfolios">
+            <div class="box">
+              <a href="https://hangman.melisayu.com" target="_blank">
+                <div class="image-container">
+                  <img alt="Hangman Screenshot" src="img/hangman.png" />
                 </div>
-           </div>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; Melisa Yulia Kristina 2020</p>
-    </footer>
-
-    <div class="menu-overlay" id="menu-overlay">
-        <div class="container">
-            <div class="line-frame">
-            <h2>HI. I'M MELISA</h2>
-            <h4>A WEB DEVELOPER FROM INDONESIA</h4>
-            <div class="info-img-wrapper">
-                <div class="social">
-                    <a href="mailto:melisayuliakristin@gmail.com" target="_blank">
-                        <img class="social-icon" src="img/email.png">
-                    </a>
-                    <a href="https://www.linkedin.com/in/melisa-yulia-kristina/" target="_blank">
-                        <img class="social-icon" src="img/linkedin.png">
-                    </a>
-                    <a href="https://twitter.com/celestialdust16" target="_blank">
-                        <img class="social-icon" src="img/twitter.png">
-                    </a>
+                <p>Hangman Browser Game Sample</p>
+              </a>
+            </div>
+            <div class="box">
+              <a href="https://shop.melisayu.com" target="_blank">
+                <div class="image-container">
+                  <img alt="Shop App Screenshot" src="img/shop.png" />
                 </div>
-                <img class="profile-photo" src="img/melisa.jpg" alt="Melisa's Photo"> 
-                <div class="social">
-                    <a href="https://www.instagram.com/celestialdust_/?hl=en" target="_blank">
-                        <img class="social-icon" src="img/instagram.png">
-                    </a>
-                    <a>
-                        <img class="social-icon" src="img/facebook.png">
-                    </a>
-                    <a href="https://wa.me/628119993308" target="_blank">
-                        <img class="social-icon" src="img/whatsapp.png">
-                    </a>
+                <p>Shop App Sample</p>
+            </a href="https://shop.melisayu.com" target="_blank">
+            </div>
+            <div class="box">
+              <a href="https://festive-jackson-2a9b0c.netlify.app/index.html" target="_blank">
+                <div class="image-container">
+                  <img alt="Shop App Screenshot" src="img/hilman.png" />
                 </div>
+                <p>Profile Page Sample</br>(Designed by Hubton)</p>
+              </a href="https://shop.melisayu.com" target="_blank">
             </div>
-
-            <div class="about">
-                <p>I’m a former educator who’s now working as a web developer.
-                    I wrote my "Hello World" on January 2019 and since then
-                    I have never stopped learning and forging my path to be a professional coder.
-                    </br>
-                    I’m an enthusiastic and insatiable learner with adaptability skill and
-                    perseverance.
-                    I enjoy the bliss of solving problems and being able to create things with programming.
-                    Those things make me a logical thinker in mind, but also creative at heart.
-                    </br>
-                    I always try to improve my skills and learn something new everyday.
-                    My decision to be a developer is one of the best decisions I've made in life.
-                </p>
-            </div>
-            </div>
+          </div>
         </div>
-    </div>
+        <!-- End of Personal Projects-->
 
-    <script src="main.js"></script>
+        <!-- Commercial Projects-->
+        <div class="box-content">
+          <h5>COMMERCIAL PROJECTS</h5>
+          <div class="portfolios">
+            <div class="box">
+              <a href="https://thevirtualwedding.co" target="_blank">
+                <div class="image-container">
+                  <img alt="The Virtual Wedding Screenshot" src="img/thevirtualwedding.jpg" />
+                </div>
+                <p>The Virtual Wedding</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Commercial Projects-->
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; Melisa Yulia Kristina 2020</p>
+  </footer>
+
+  <div class="menu-overlay" id="menu-overlay">
+    <div class="container">
+      <h2>HI. I'M MELISA</h2>
+      <h4>A WEB DEVELOPER FROM INDONESIA</h4>
+      <div class="menu-overlay-wrapper">
+        <div class="img-wrapper">
+          <img class="profile-photo" src="img/melisa.jpg" alt="Melisa's Photo"> 
+        </div>
+        <div class="overlay-info">
+          <div class="social">
+            <a href="https://www.instagram.com/celestialdust_/?hl=en" target="_blank">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="https://wa.me/628119993308" target="_blank">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-whatsapp"></use>
+              </svg>
+            </a>
+            <a href="mailto:melisayuliakristin@gmail.com" target="_blank">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-email"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/melisa-yulia-kristina/" target="_blank">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://twitter.com/celestialdust_" target="_blank">
+              <svg class="social-icon">
+                <use xlink:href="img/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="about">
+            <p>I’m a former educator who’s now working as a web developer.
+              I wrote my "Hello World" on January 2019, and since then
+              I have never stopped learning and forging my path to be a professional coder.
+              <br>
+              I’m an enthusiastic and insatiable learner with adaptability skill and
+              perseverance.
+              I enjoy the bliss of solving problems and being able to create things with programming.
+              Those things make me a logical thinker in mind, but also creative at heart.
+              <br>
+              I always try to improve my skills and learn something new everyday.
+              My decision to be a developer is one of the best decisions I've made in life.
+            </p>
+          </div>
+          <div class="button">
+            <button>
+            see my resume
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
