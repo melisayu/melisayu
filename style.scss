@@ -171,7 +171,8 @@ p {
   margin: 2rem 0rem 5rem 3rem;
   .img-wrapper {
     width: 100%;
-    margin-right: 4.5rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
     .profile-photo {
       width: 100%;
       border-radius: 5px;
@@ -340,6 +341,7 @@ p {
     top: -2rem;
     letter-spacing: 1px;
     position: absolute;
+    text-transform: uppercase;
   }
 }
 
@@ -374,10 +376,29 @@ p {
     color: $shingleFawn;
     font-weight: 700;
     letter-spacing: 2px;
+    font-size: 18px;
   }
   p:hover {
     color: $nightRider;
   }
+  span {
+    letter-spacing: 0.2em;
+    margin: .6em 3em;
+    font-size: 23px;
+  }
+  span:hover {
+    transform: scale(1.25);
+    color: $saddle;
+    text-decoration: underline;
+  }
+}
+.portfolios.skills {
+  justify-content: center;
+  margin-top: 3rem;
+}
+.box-content.skills {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -390,6 +411,7 @@ footer {
   p {
     font-family: $main;
     letter-spacing: 0.2em;
+    margin-bottom: 24px;
   }
 }
 
@@ -437,6 +459,9 @@ animation: color-change-2x 2s linear infinite alternate both;
   .overlay-info {
     width: 100vw;
   }
+  .portfolios span {
+    margin: .6em 2em;
+  }
 }
 @media screen and (max-width:834px) {
   .menu.mobile {
@@ -456,6 +481,7 @@ animation: color-change-2x 2s linear infinite alternate both;
     margin: 2rem 0rem 2rem 3rem;
     .img-wrapper {
       width: 45%;
+      margin-left: 0;
     }
     .overlay-info {
       margin-top: 3rem;
@@ -473,6 +499,9 @@ animation: color-change-2x 2s linear infinite alternate both;
   }
   .box-content h5 {
     left: 1rem;
+  }
+  footer p {
+    margin-bottom: 16px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -504,7 +533,7 @@ animation: color-change-2x 2s linear infinite alternate both;
       font-size: 26px;
   }
   h3 {
-    top: 17.2em;
+    top: 20em;
     position: fixed;
     font-size: 15px;
   }
@@ -524,6 +553,7 @@ animation: color-change-2x 2s linear infinite alternate both;
     left: unset;
     text-align: center;
     font-size: 22px;
+    margin-right: 0;
   }
   .portfolios {
     .box {
@@ -532,6 +562,10 @@ animation: color-change-2x 2s linear infinite alternate both;
     p {
       margin-top: 8px;
     }
+  }
+  .portfolios.skills {
+    flex-direction: column;
+    margin-top: 1rem;
   }
   .footer p {
     margin: 8px;
@@ -571,4 +605,9 @@ animation: color-change-2x 2s linear infinite alternate both;
   .profile-photo {
       max-height: 250px;
   }
+}
+
+/* Big Screen */
+@media screen and (min-width: 1279px) {
+
 }

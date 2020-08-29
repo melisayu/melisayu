@@ -169,7 +169,8 @@ p {
 }
 .menu-overlay-wrapper .img-wrapper {
   width: 100%;
-  margin-right: 4.5rem;
+  margin-right: 3rem;
+  margin-left: 1rem;
 }
 .menu-overlay-wrapper .img-wrapper .profile-photo {
   width: 100%;
@@ -338,6 +339,7 @@ p {
   top: -2rem;
   letter-spacing: 1px;
   position: absolute;
+  text-transform: uppercase;
 }
 
 .portfolios {
@@ -372,9 +374,30 @@ p {
   color: #704E39;
   font-weight: 700;
   letter-spacing: 2px;
+  font-size: 18px;
 }
 .portfolios p:hover {
   color: #160F0C;
+}
+.portfolios span {
+  letter-spacing: 0.2em;
+  margin: .6em 3em;
+  font-size: 23px;
+}
+.portfolios span:hover {
+  transform: scale(1.25);
+  color: #4D2B20;
+  text-decoration: underline;
+}
+
+.portfolios.skills {
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.box-content.skills {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
@@ -388,6 +411,7 @@ footer {
 footer p {
   font-family: "Jockey One", sans-serif;
   letter-spacing: 0.2em;
+  margin-bottom: 24px;
 }
 
 /* Gradient Color Changing */
@@ -436,6 +460,10 @@ footer p {
   .overlay-info {
     width: 100vw;
   }
+
+  .portfolios span {
+    margin: .6em 2em;
+  }
 }
 @media screen and (max-width: 834px) {
   .menu.mobile {
@@ -457,6 +485,7 @@ footer p {
   }
   .menu-overlay-wrapper .img-wrapper {
     width: 45%;
+    margin-left: 0;
   }
   .menu-overlay-wrapper .overlay-info {
     margin-top: 3rem;
@@ -477,6 +506,10 @@ footer p {
 
   .box-content h5 {
     left: 1rem;
+  }
+
+  footer p {
+    margin-bottom: 16px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -513,7 +546,7 @@ footer p {
   }
 
   h3 {
-    top: 17.2em;
+    top: 20em;
     position: fixed;
     font-size: 15px;
   }
@@ -536,6 +569,7 @@ footer p {
     left: unset;
     text-align: center;
     font-size: 22px;
+    margin-right: 0;
   }
 
   .portfolios .box {
@@ -543,6 +577,11 @@ footer p {
   }
   .portfolios p {
     margin-top: 8px;
+  }
+
+  .portfolios.skills {
+    flex-direction: column;
+    margin-top: 1rem;
   }
 
   .footer p {
@@ -585,3 +624,4 @@ footer p {
     max-height: 250px;
   }
 }
+/* Big Screen */
