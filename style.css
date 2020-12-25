@@ -170,13 +170,11 @@ p {
       text-transform: initial; }
     .menu-overlay-wrapper .about p:hover {
       color: #160F0C; }
-  .menu-overlay-wrapper .button {
-    display: none;
-    /* Display if needed */
+  .menu-overlay-wrapper .download {
     width: 100%;
     margin: 0 1.5rem;
     text-align: left; }
-    .menu-overlay-wrapper .button button {
+    .menu-overlay-wrapper .download a {
       height: 48px;
       padding: 0 20px;
       background: transparent;
@@ -184,11 +182,21 @@ p {
       text-transform: uppercase;
       color: #704E39;
       cursor: pointer;
-      border-radius: 4px; }
-    .menu-overlay-wrapper .button button:hover {
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      text-decoration: unset; }
+    .menu-overlay-wrapper .download a:hover {
       background: #704E39;
       color: #fbfaf6;
       border-color: #704E39; }
+  .menu-overlay-wrapper .download-icon {
+    width: 25px;
+    height: 25px;
+    fill: #A29786;
+    padding-left: 20px; }
 
 .social {
   display: flex;
