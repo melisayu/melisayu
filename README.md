@@ -1,6 +1,6 @@
 ## Hi there, I'm Melisa 👋
 - 💻 I’m a frontend developer and a former teacher
-- 🏡 I'm an Indonesian, based in The Netherlands
+- 🏡 I'm Indonesian, based in The Netherlands
 - 😄 Pronouns: She, her, hers
 - 🌱 I’m currently learning technologies those will help me to become a fullstack developer one day
 - 👯 I’m looking to collaborate on open source projects
