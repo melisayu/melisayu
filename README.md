@@ -1,10 +1,13 @@
 ## Hi there, I'm Melisa 👋
 - 💻 I’m a frontend developer and a former teacher
 - 🏡 I'm Indonesian, based in The Netherlands
+- 🔭 I have a lot of hobbies beside of programming: gaming, playing musical instruments, reading, painting, hiking, and travelling.
 - 😄 Pronouns: She, her, hers
 - 🌱 I’m currently learning technologies those will help me to become a fullstack developer one day
 - 👯 I’m looking to collaborate on open source projects
 - 💬 Ask me about how I switched career into software development
+
+Visit https://melisa.dev to see my live projects!
 <!--
 **melisayu/melisayu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
