@@ -7,7 +7,7 @@
 - 👯 I’m looking to collaborate on open source projects
 - 💬 Ask me about how I switched career into software development
 
-Visit https://melisa.dev to see my live projects!
+Visit https://melisa.dev to see some of my live projects!
 <!--
 **melisayu/melisayu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
