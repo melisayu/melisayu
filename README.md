@@ -3,7 +3,7 @@
 - 🏡 I'm Indonesian, based in The Netherlands
 - 🔭 I have a lot of hobbies beside of programming: gaming, playing musical instruments, reading, painting, hiking, and travelling.
 - 😄 Pronouns: She, her, hers
-- 🌱 I’m currently learning technologies those will help me to become a fullstack developer one day
+- 🌱 I’m currently learning technologies those will help me to become a better fullstack developer
 - 👯 I’m looking to collaborate on open source projects
 - 💬 Ask me about how I switched career into software development
 
