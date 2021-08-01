@@ -1,5 +1,5 @@
 ## Hi there, I'm Melisa 👋
-- 💻 I’m a frontend developer and a former teacher
+- 💻 I’m a web developer and a former teacher
 - 🏡 I'm Indonesian, based in The Netherlands
 - 🔭 I have a lot of hobbies beside of programming: gaming, playing musical instruments, reading, painting, hiking, and travelling.
 - 😄 Pronouns: She, her, hers
