@@ -1,11 +1,12 @@
 ## Hi there, I'm Melisa 👋
 - 💻 I’m a web developer and a former teacher
 - 🏡 I'm Indonesian, based in The Netherlands
-- 🔭 I have a lot of hobbies beside of programming: gaming, playing musical instruments, reading, painting, hiking, and travelling.
+- 🔭 I have a lot of hobbies beside of programming: playing boardgames, playing pc games, playing musical instruments, painting, hiking, travelling, and reading
 - 😄 Pronouns: She, her, hers
 - 🌱 I’m currently learning technologies those will help me to become a better fullstack developer
 - 👯 I’m looking to collaborate on open source projects
 - 💬 Ask me about how I switched career into software development
+- ⚡ Fun fact: I used to read a lot of philosophy and fantasy literatures
 
 Visit https://melisa.dev to see some of my live projects!
 
