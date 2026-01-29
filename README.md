@@ -1,7 +1,7 @@
 ## Hi there, I'm Melisa 👋
 - 💻 I’m a frontend-focused fullstack developer and a former teacher
 - 🏡 I'm an Indonesian, based in The Netherlands
-- 🔭 I have a lot of hobbies beside of programming: playing boardgames, pc games, playing musical instruments, drawing, hiking, baking, and reading
+- 🔭 I have a lot of hobbies beside of programming: playing boardgames, pc games, playing musical instruments, drawing, crafting, hiking, baking, and reading
 - 🌱 I’m currently learning Dutch and Japanese
 - 👯 I’m looking to collaborate on open source projects and am looking for people who might be interested in joining [Transpaer](https://transpaer.app/) project and other open source projects I created.
 - 💬 Ask me about how I switched careers into software development or other things that might interest you.
