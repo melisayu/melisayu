@@ -5,7 +5,7 @@
 - 🌱 I’m currently learning Dutch and Japanese
 - 👯 I’m looking to collaborate on open source projects and am looking for people who might be interested in joining [Transpaer](https://transpaer.app/) project and other open source projects I created.
 - 💬 Ask me about how I switched careers into software development or other things that might interest you.
-- ⚡ Two fun facts about me: 1) I used to love reading philosophy and fantasy literatures 2) I have quite a lot of 'mushroom' stuff in my home-office.
+- ⚡ Two fun facts about me: 1) I used to love reading philosophy and fantasy literatures 2) I have quite a lot of 'mushroom' stuff in my home-office. 🍄
 
 Visit https://melisa.dev to see some of my live projects!
 
